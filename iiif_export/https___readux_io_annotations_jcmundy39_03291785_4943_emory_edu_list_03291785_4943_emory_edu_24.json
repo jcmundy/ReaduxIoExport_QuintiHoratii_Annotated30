@@ -1,0 +1,169 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.io/annotations/jcmundy39/03291785.4943.emory.edu/list/03291785.4943.emory.edu$24",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "d57e2c27-48e5-4230-b382-9ceab3f6eacc",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p><a title=\"Perseus\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi004.perseus-lat1:2.2\">The text</a>: iudice: nam frustra vitium vitaveris illud, si te alio pravum detorseris. Avidienus,</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Satyrarum libri"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$24",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=725,647,693,110",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M724.96822,646.79181h346.42789v0h346.42789v55.03724v55.03724h-346.42789h-346.42789v-55.03724z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_57c05719-ae5d-4a59-ad19-fd9c792f923d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=725,647,693,110"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "fb6dc0ca-901d-4324-a3c3-0e21341ab7e7",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p><a title=\"Perseus\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi004.perseus-lat1:1.2\">The text</a>: dum vitant stulti vitia, in contraria currunt.</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Satyrarum libri"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$24",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=739,383,666,40",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='1bd0b549-478c-425d-92dd-29df2a2ee17f']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='fe8b2bd6-db40-415e-a9db-97c9636d792b']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 8
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-fb6dc0ca-901d-4324-a3c3-0e21341ab7e7 { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "f1b3cac3-27d7-408e-8673-9089fa1cefa6",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p><a title=\"Perseus\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi006.perseus-lat1:1-43\">Horace</a>, De Arte Poetica liber 1</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "De Arte Poetica liber"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$24",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=492,825,51,40",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='1cec6c7a-a97c-445d-9eee-9a951751d5ec']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='d6479bd0-ff76-415c-bc64-b2e8b63a9816']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 5
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-f1b3cac3-27d7-408e-8673-9089fa1cefa6 { background: rgba(0, 191, 255, 0.5); }"
+            }
+        }
+    ]
+}

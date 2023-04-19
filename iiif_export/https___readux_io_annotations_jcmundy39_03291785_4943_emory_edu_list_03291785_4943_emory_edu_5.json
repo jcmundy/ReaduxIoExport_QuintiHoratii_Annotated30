@@ -1,0 +1,192 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.io/annotations/jcmundy39/03291785.4943.emory.edu/list/03291785.4943.emory.edu$5",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "1e94465f-99ea-4b69-8e9f-4e1bb56e8364",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>test</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$5",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=544,456,796,84",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='fdcc0ff0-092e-40a2-a612-22b2dbce2d3b']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 1
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='ddb46262-40d9-4065-9b14-51874f9af4ff']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 6
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-1e94465f-99ea-4b69-8e9f-4e1bb56e8364 { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "faedd5c7-e302-4755-b2b7-43435754d3ff",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>I am making a TEST Readux export site. This will be a test site only. I will link to some original sources for this material as a test of the Readux platform. I am only adding notations and links for the first 30 pages in this test site.</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$5",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=426,570,822,118",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='1eaa9ef8-17e7-4fbd-ac2c-76eafe1154e1']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='4da631fc-adc3-450d-a9bf-6c81fd1af1e6']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 9
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-faedd5c7-e302-4755-b2b7-43435754d3ff { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "070e0134-e48e-4edb-a549-811608df96aa",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>Most links are to texts on Perseus Digital Library. Ed. Gregory R. Crane. Tufts University. <a href=\"http://www.perseus.tufts.edu\" target=\"_blank\" rel=\"noopener\">http://www.perseus.tufts.edu</a> (accessed July, 2017).</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$5",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=601,746,720,52",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='9561cd0b-3a64-4016-a168-a3433feb0864']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 1
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='b07cd6c2-3df3-45f8-8a9a-afe9849a0256']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 11
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-070e0134-e48e-4edb-a549-811608df96aa { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "d2d29288-3295-4df6-a7bb-24fa8e5dec78",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<div class=\"text\">\n<p>See a statue of Horace in Venosa. <img src=\"https://upload.wikimedia.org/wikipedia/commons/b/ba/Statua_di_Orazio.jpg\" alt=\"Alt text\" /></p>\n<p>Venosa - ancient Venusia - also has some Roman walls that they mark as the House of Horace. <img src=\"https://upload.wikimedia.org/wikipedia/commons/7/75/Casa_di_Orazio_Flacco9.jpg\" alt=\"Alt text\" /></p>\n</div>\n<p>&nbsp;</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$5",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=673,1010,516,576",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M748.81213,1093.95283c47.66707,-48.36932 114.90919,-84.38832 182.47717,-84.34529v0v0c67.56798,0.04303 126.43102,33.73823 182.47717,84.34529c56.04615,50.60706 77.83058,127.72246 75.58452,203.62754c-2.24606,75.90508 -28.52261,150.59984 -75.58452,203.62754c-47.06191,53.0277 -114.90919,84.38832 -182.47717,84.34529c-67.56798,-0.04303 -134.85665,-31.48973 -182.47717,-84.34529c-47.62052,-52.85556 -75.57288,-127.11999 -75.58452,-203.62754c-0.01164,-76.50755 27.91745,-155.25822 75.58452,-203.62754z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"ellipse_67f0fd49-9d87-4a67-8355-fb001b304cea\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"20.4246\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=673,1010,516,576"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

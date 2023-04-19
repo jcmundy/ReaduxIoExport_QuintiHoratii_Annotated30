@@ -1,0 +1,145 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.io/annotations/jcmundy39/03291785.4943.emory.edu/list/03291785.4943.emory.edu$12",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "da833535-919e-4e64-857e-c32d484f6a14",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p><a title=\"Perseus\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi001.perseus-lat1:3.2\">See</a> the context.</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Carmina"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$12",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=290,348,843,171",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M289.66067,348.3244h421.58753v0h421.58753v85.7085v85.7085h-421.58753h-421.58753v-85.7085z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_5857c864-9368-41f4-a688-13f33e0d8fe0\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=290,348,843,171"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "3359d39a-8d8c-4567-b784-e7ab741dc795",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>On this and following pages, the bottom text sections are translations into four languages of the text above.</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$12",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=295,1087,1313,907",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M294.78258,1087.20252h656.46029v0h656.46029v453.69796v453.69796h-656.46029h-656.46029v-453.69796z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_0cce26de-e5eb-4765-995c-bef6d9802541\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=295,1087,1313,907"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "39dca5e4-f50c-469c-b4db-526c732e69eb",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p><a title=\"Perseus\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi004.perseus-lat1:1.6\">See here</a> - lines 15-17</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Satyrarum libri"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$12",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=330,595,96,38",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='fa12c358-a8d4-4818-9701-67e035c4e2a3']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='8938caae-e295-4b91-aa4e-e2715974a1c0']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 8
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-39dca5e4-f50c-469c-b4db-526c732e69eb { background: rgba(0, 191, 255, 0.5); }"
+            }
+        }
+    ]
+}

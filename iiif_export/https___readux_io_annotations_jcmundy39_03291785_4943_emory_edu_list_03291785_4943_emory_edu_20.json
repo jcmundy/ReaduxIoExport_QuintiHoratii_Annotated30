@@ -1,0 +1,188 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.io/annotations/jcmundy39/03291785.4943.emory.edu/list/03291785.4943.emory.edu$20",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "625f2e37-6679-4ae6-a4f2-470d13d97562",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p><a title=\"Perseus\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi005.perseus-lat1:1.1\">Beginning</a> on line 41.</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Epistles"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Virtus"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$20",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=794,358,649,42",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='f86c716b-4e9a-4b9a-bdff-686f853c0ee8']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 1
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='db7cd7c6-ca35-46da-bc82-74f2a3d9084b']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 13
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-625f2e37-6679-4ae6-a4f2-470d13d97562 { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "d67cde0a-6b4b-41f9-9754-4d3b0076d04a",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p><a title=\"Perseus\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0893.phi001.perseus-lat1:1.12\">See</a> the text. Here <a title=\"ipsi\" href=\"http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0059%3Aentry%3Dipse\">ipsi</a> not <a title=\"illi\" href=\"http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0059%3Aentry%3Dille\">illi</a>.</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Carmina"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$20",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=981,633,245,38",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='4ebcc212-24bb-4ebf-863d-9dff729946a3']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 1
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='582b6f55-2c8d-4603-ae4e-6fcab06726d2']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 8
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-d67cde0a-6b4b-41f9-9754-4d3b0076d04a { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "a788312b-b351-4bd3-a112-676a623a4079",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p>Cicero <a title=\"Perseus\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0474.phi049.perseus-lat1:3.19\">Tusculanae Disputationes</a> 3.19</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Cicero"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$20",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=456,811,592,68",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='bb0acbcc-b3cd-42e5-aca8-887701c67b56']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='fe44f987-6bbb-4988-80b0-c95fe5cc08ac']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 29
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-a788312b-b351-4bd3-a112-676a623a4079 { background: rgba(0, 191, 255, 0.5); }"
+            }
+        }
+    ]
+}

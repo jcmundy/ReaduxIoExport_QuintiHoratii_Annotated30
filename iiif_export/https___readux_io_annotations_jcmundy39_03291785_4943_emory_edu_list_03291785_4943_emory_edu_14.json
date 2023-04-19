@@ -1,0 +1,160 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://readux.io/annotations/jcmundy39/03291785.4943.emory.edu/list/03291785.4943.emory.edu$14",
+    "@type": "sc:AnnotationList",
+    "resources": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "870a514b-5a61-46d1-bc10-0e333b32aa68",
+            "@type": "oa:Annotation",
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/html",
+                "chars": "<p>See Virgil&rsquo;s Aeneid book 6 line 853 <a title=\"line of text\" href=\"http://data.perseus.org/citations/urn:cts:latinLit:phi0690.phi003.perseus-lat1:6.801-6.853\">here</a>.</p>",
+                "language": "en"
+            },
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$14",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=455,519,1241,199",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M455.46606,518.73359h620.71816v0h620.71816v99.49825v99.49825h-620.71816h-620.71816v-99.49825z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_f7066230-de0f-409b-b8fc-4fcc6c188df2\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=455,519,1241,199"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "ed39b7dd-0e76-4724-95d7-ddaa2d12c28d",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p>This is cited in Lewis&rsquo;s An Elementary Latin Dictionary as an example of <a title=\"attingo\" href=\"http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0060:entry=attingo\">attingo</a>.</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Epistles"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$14",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=752,458,565,40",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='27ba1796-5bde-433c-a533-39cee489e91a']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='cf545f00-252b-49dd-8afc-9d54ee4e14a7']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 6
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-ed39b7dd-0e76-4724-95d7-ddaa2d12c28d { background: rgba(0, 191, 255, 0.5); }"
+            }
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "9867fb3a-06a1-4dca-a468-c88cec99870a",
+            "@type": "oa:Annotation",
+            "motivation": [
+                "oa:commenting",
+                "oa:tagging"
+            ],
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": [
+                {
+                    "@type": "dctypes:Text",
+                    "format": "text/html",
+                    "chars": "<p>It appears to be Hesiod&rsquo;s Works and Days WD 274. See the text in <a title=\"Greek\" href=\"http://data.perseus.org/citations/urn:cts:greekLit:tlg0020.tlg002.perseus-grc1:1-10\">Greek</a> and <a title=\"English\" href=\"http://data.perseus.org/citations/urn:cts:greekLit:tlg0020.tlg002.perseus-eng1:274-319\">English</a>, and <a title=\"wiki\" href=\"https://en.wikipedia.org/wiki/Works_and_Days\">some information</a>.</p>",
+                    "language": "en"
+                },
+                {
+                    "@type": "oa:Tag",
+                    "chars": "Hesiod"
+                }
+            ],
+            "on": {
+                "full": "https://readux.io/iiif/v2/03291785.4943.emory.edu/canvas/03291785.4943.emory.edu$14",
+                "@type": "oa:SpecificResource",
+                "within": {
+                    "@id": "https://readux.io/iiif/v2/03291785.4943.emory.edu/manifest",
+                    "@type": "sc:Manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=464,801,110,31",
+                    "item": {
+                        "@type": "RangeSelector",
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='ced525ca-c52c-4655-a961-2f83a69aac2c']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 0
+                            }
+                        },
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='1dfaaae4-f85f-418d-83ff-05221f6d96d5']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 11
+                            }
+                        }
+                    }
+                }
+            },
+            "stylesheet": {
+                "type": "CssStylesheet",
+                "value": ".anno-9867fb3a-06a1-4dca-a468-c88cec99870a { background: rgba(0, 191, 255, 0.5); }"
+            }
+        }
+    ]
+}
