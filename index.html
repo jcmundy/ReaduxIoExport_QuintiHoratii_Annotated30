@@ -16,7 +16,7 @@ could be misleading because this is also a website ... {% endcomment %}
       <meta property="schema:name" content="{{ editor }}" />
     </div>
   {% endfor %}
-  <img width="50%" class="img-fluid" property="schema:image" src="{{ site.homepage_image }}"/>
+  <img style="max-height:100%;max-width:100%;height:100%;" class="img-fluid" property="schema:image" src="{{ site.homepage_image }}"/>
 
 <p><span property="schema:numberOfPages">{{ site.volume_pages|size }}</span> pages,
 <span property="schema:commentCount">{{ site.annotations|size }}</span> annotations.</p>
